@@ -10,3 +10,5 @@ Simples Monitorador de sessões do Oracle
 3) Verificar os resultados no arquivo de log.
 
 
+
+obs.: Seu usuário precisara ter GRANT para a view v$session.
