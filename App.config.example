@@ -3,6 +3,12 @@
   <configSections>
     <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" requirePermission="false"/>
   </configSections>
+  <appSettings>
+    <add key="Usuario" value="xxx"/>
+    <add key="Intervalo" value="30"/>
+    <add key="Repeticoes" value="100"/>
+    <add key="Detalhado" value="True"/>
+  </appSettings>
   <connectionStrings>
     <add name="Oracle" connectionString="Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=xxx)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=xxx)));User Id=xxx;Password=xxx;" providerName="Oracle.DataAccess.Client"/>
   </connectionStrings>

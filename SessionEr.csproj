@@ -32,15 +32,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Framework.Log">
+      <HintPath>_dll\Framework.Log.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Oracle.DataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\oracle\product\12.1.0\client_1\odp.net\bin\4\Oracle.DataAccess.dll</HintPath>
-    </Reference>
-    <Reference Include="Rio2016.Framework.Log">
-      <HintPath>_dll\Rio2016.Framework.Log.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

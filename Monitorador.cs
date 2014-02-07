@@ -1,5 +1,5 @@
-﻿using Oracle.DataAccess.Client;
-using Rio2016.Framework.Log;
+﻿using Framework.Log;
+using Oracle.DataAccess.Client;
 using System.Configuration;
 using System.Threading;
 
